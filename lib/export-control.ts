@@ -89,6 +89,7 @@ export default class MapboxExportControl implements IControl {
     this.exportButton.classList.add('mapboxgl-export-control');
     this.exportButton.type = 'button';
     this.exportButton.addEventListener('click', () => {
+      console.log("HELLO THERE :))))))");
       this.exportButton.style.display = 'none';
       this.exportContainer.style.display = 'block';
       this.toggleCrosshair(true);
